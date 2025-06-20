@@ -41,7 +41,7 @@ const Story = () => {
         {/* Historia */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg relative border border-accent/30">
-            <FaQuoteLeft className="text-primary/30 text-6xl absolute top-6 left-6" />
+            <FaQuoteLeft className="text-primary/30 text-4xl absolute top-[0.3rem] left-[0.4rem]" />
             
             <p className="text-lightText italic mb-6 relative z-10 font-medium">
               "Los envueltos de la abuela Carmen surge en 2011, después de que perdí mi empleo y con una familia por sacar adelante..."
