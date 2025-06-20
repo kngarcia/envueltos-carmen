@@ -17,6 +17,7 @@ const Hero = () => {
         <div className="md:w-1/2 mb-12 md:mb-0">
           {/* Tagline */}
           <div className="inline-flex items-center px-4 py-2 bg-primary/20 text-white rounded-xl mb-4 drop-shadow">
+            <span className="text-xl mr-2">🇨🇴</span>
             <FaUtensils className="mr-2 text-white/80" />
             <span className="font-medium">¡Tradición colombiana!</span>
           </div>
