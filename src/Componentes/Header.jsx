@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaBars, FaTimes, FaPhone } from 'react-icons/fa';
+import logoCarmen from '../assets/logo.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,11 @@ const Header = () => {
           href="#inicio"
           className="flex items-center bg-amber-50 border-2 border-amber-200 p-3 rounded-lg transform transition-transform hover:-translate-y-1 hover:shadow-lg"
         >
-          <span className="text-2xl">🌽</span>
+          <img 
+            src={logoCarmen}
+            alt="Logo Envueltos Carmen"
+            className="w-8  h-8 object-contain rounded-full"
+          />
           <span className="ml-2 text-xl md:text-2xl font-serif font-bold text-amber-800">
             Envueltos Carmen
           </span>

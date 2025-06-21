@@ -1,8 +1,9 @@
 import { FaUtensils } from 'react-icons/fa';
+import logoCarmen from '../assets/logo.png';
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative pt-24 sm:pt-28 md:pt-32 pb-20 overflow-hidden">
+    <section id="inicio" className="relative pt-16 sm:pt-20 md:pt-24 pb-20 overflow-hidden">
       {/* Fondo + overlay */}
       <div
         className={
@@ -15,6 +16,14 @@ const Hero = () => {
       {/* Contenido */}
       <div className="relative container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-12 md:mb-0">
+          {/* Logo with lift effect */}
+          <div className="w-27 h-27 mb-4 rounded-full bg-white flex items-center justify-center shadow-md">
+            <img 
+              src={logoCarmen} 
+              alt="Logo Envueltos Carmen" 
+              className="w-30 h-30 object-contain"
+            />
+          </div>
           {/* Tagline */}
           <div className="inline-flex items-center px-4 py-2 bg-primary/20 text-white rounded-xl mb-4 drop-shadow">
             <span className="text-xl mr-2">🇨🇴</span>
@@ -24,7 +33,7 @@ const Hero = () => {
 
           {/* Título */}
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white drop-shadow-lg mb-6">
-            Envueltos de la <span className="text-amber-500">abuela</span> Carmen
+            Los Envueltos de la <span className="text-amber-500">abuela</span> Carmen
           </h1>
 
           {/* Descripción */}
